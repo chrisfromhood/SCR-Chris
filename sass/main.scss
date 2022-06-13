@@ -12,3 +12,46 @@
   padding: 0 45px;
   text-align: center;
 }
+
+.nav {
+  padding: 2rem 4rem;
+  .nav-item {
+    text-transform: uppercase;
+  }
+
+  .nav-link {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
+
+.footer-text {
+  color: #fff;
+  padding: 2rem 4rem;
+  font-size: small;
+}
+
+.contacts {
+  color: #fff;
+  padding: 2rem 4rem;
+  border-right-style: solid;
+  border-right-width: 2px;
+  border-right-color: rgba(255, 255, 255, 0.1);
+  p {
+    text-align: center;
+  }
+}
+
+.card-list {
+  display: flex;
+  justify-content: center;
+  .card-item {
+    padding-bottom: 5px;
+    padding-right: 5px;
+    .logo-bank {
+      display: block;
+      width: 56px;
+      height: 37px;
+    }
+  }
+}
